@@ -1,5 +1,5 @@
 const yourDate = new Date("2021-03-20T09:39:39"),
-music = ['dem.ngay.yeu/music/ducho.mp3' , 'dem.ngay.yeu/music/nucuoi.mp3' , 'dem.ngay.yeu/music/dtcev.mp3'];
+music = ['ducho' , 'nucuoi' , 'dtcev'];
 
 document.addEventListener('DOMContentLoaded', function(){
       var rootTime = document.querySelector("time");
@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function(){
             rootTime.textContent = `${(hrs>9)?hrs:"0"+hrs}:${(min>9)?min:"0"+min}:${(sec>9)?sec:"0"+sec}`;
       } olock();
       var timer = setInterval(function(){olock()}, 1000);
-      document.querySelector("audio").setAttribute("src", `dem.ngay.yeu/music/${music[Math.floor(Math.random()*music.length)]}.mp3`);
+      document.querySelector("audio").setAttribute("src", `music/${music[Math.floor(Math.random()*music.length)]}.mp3`);
 
       document.getElementsByTagName("body")[0].insertAdjacentHTML(
             "beforeend",
