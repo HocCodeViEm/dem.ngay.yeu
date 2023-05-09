@@ -1,4 +1,4 @@
-const yourDate = new Date("2021-03-20T07:00:00"),
+const yourDate = new Date("2021-03-20T09:39:39"),
 music = ['ducho' , 'nucuoi' , 'dtcev'];
 
 document.addEventListener('DOMContentLoaded', function(){
