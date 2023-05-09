@@ -1,5 +1,5 @@
 const yourDate = new Date("2021-03-20T09:39:39"),
-music = ['ducho' , 'nucuoi' , 'dtcev'];
+music = ['dem.ngay.yeu/music/ducho.mp3' , 'dem.ngay.yeu/music/nucuoi.mp3' , 'dem.ngay.yeu/music/dtcev.mp3'];
 
 document.addEventListener('DOMContentLoaded', function(){
       var rootTime = document.querySelector("time");
